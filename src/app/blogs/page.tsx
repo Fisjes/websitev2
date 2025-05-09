@@ -25,7 +25,7 @@ export default function Blogs() {
       <ul>
         {blogs.map((blog) => (
           <li key={blog.slug} className="mb-4">
-            <Link href={`/blogs/${blog.slug}`}>
+            <Link href={`/blogs/${blog.slug}`} legacyBehavior>
               <h2 className="text-2xl font-semibold text-blue-500 hover:underline">{blog.title}</h2>
               <p className="text-gray-500">{blog.date}</p>
             </Link>
