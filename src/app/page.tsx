@@ -26,7 +26,10 @@ export default function Home() {
         </div>
       </div>
       { /* This is the main content of the page */}
-      <h1 className="text-6xl font-bold flex justify-center p-10">Hey there!</h1>
+      <div className="w-100 h-200">
+      <h1 className="text-4xl text-left text-black font-bold p-10">Hey there!</h1>
+      <p className="text-black text-xl">Welcome to my porfolio website! My name is Benjamin and I am a Motion Graphics Designer and Junior Front-end Developer!</p>
+      </div>
     </div>
   );
 }
