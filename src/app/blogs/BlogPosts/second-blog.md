@@ -1,5 +1,5 @@
 ---
-title: "My asdd"
+title: "My Second Blog"
 date: "2025-05-09"
 ---
 
