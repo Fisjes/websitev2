@@ -10,7 +10,7 @@ export default function Home() {
         <div><p className="font-bold">About</p></div>
         <div>
         <a
-            href="https://github.com/your-username/your-repo-name"
+            href="https://github.com/Fisjes/websitev2"
             target="_blank"
             rel="noopener noreferrer"
             className="font-bold cursor-pointer"
